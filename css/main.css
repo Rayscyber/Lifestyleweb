@@ -1,0 +1,343 @@
+body  {
+        padding: 0;
+        margin: 0;
+        background: #f4f4f4;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+.container  {
+
+        width: 80%;
+        margin: 0 auto;
+        overflow: hidden;
+}
+
+clearfix::after  {
+
+        content:"";
+        clear: both;
+        display: table;
+}
+
+/*  header section  */
+
+header#navhead {
+
+        background-color: #35424a;
+        color: #fff;
+}
+
+.highlight  {
+        color: red;
+        font-weight: bold;
+}
+
+nav#navbar a{
+
+        text-decoration: none;
+        color: #fff;
+        font-size: 16px;
+        text-transform: uppercase;
+}
+
+/* showcase */
+
+section#showcase  {
+
+         min-height: 400px;
+         background: red;
+         background-image: url(../img/jad.jpg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center;
+         text-align: center;
+         /* animation-name:mybanner;
+         animation-duration:2s;
+         animation-timing-function:linear;
+         animation-iteration-count:infinite; */
+         animation: mybanner 4s linear infinite;
+}
+
+@keyframes mybanner  {
+
+        from{background-position: 0 0}
+        to{background-position: 0px}
+}
+
+section#showcase h1  {
+
+                font-size: 55px;
+                color: #ff0057;
+                margin: 80px 0 10px 0;
+}
+
+section#showcase p {
+
+        font-size: 25px;
+        color: 35px;
+        color: #ff0057;
+        
+}
+
+section#showcase a {
+
+        text-decoration: none;
+        color: #fff;
+        background: #ff0057;
+        padding: 10px;
+        display: inline-block;
+        border-radius: 10px;
+        font-size: 20px;
+        transition-property: all;
+        transition-duration: 1s;
+        transition-timing-function: ease-out;
+}
+
+section#showcase a:hover  {
+
+        background: #35424a;
+}
+
+/* newsletter */
+
+section#newsletter {
+
+        background: #35424a;
+        padding: 15px;
+        text-align: center;
+}
+
+section#newsletter h1{
+
+       
+        color: #fff;
+}
+section#newsletter a{
+                background: #ff0057;
+                color: #fff;
+                text-decoration: none;
+                box-shadow: 5px 5px 10px black;
+                padding: 10px;
+                display: inline-block;
+                border-radius: 10px;
+                font-size: 20px;
+                transition-property: all;
+                transition-duration: 1s;
+                transition-timing-function: ease-out;
+}
+
+section#newsletter a:hover {
+
+        background: #35424a;
+
+}
+section#newsletter form{
+
+        float: right;
+        margin-top: 15px;
+}
+div#heading  {
+
+        float: left;
+}
+
+div#heading h1 {
+
+        padding: 0;
+        margin: 0;
+}
+
+nav#navbar  {
+         
+         float: right;
+         margin-top: 10px;
+}
+
+header#navhead div.container {
+        padding: 20px;
+}
+
+nav#navbar ul  {
+
+                      
+                padding: 0;
+                margin: 0;
+}
+
+nav#navbar ul li {
+
+        display: inline;
+        margin: 30px;
+        padding: 0 20px;
+
+}
+
+section#newsletter form input[type="text"] {
+
+                padding: 8px;
+                height: 25px;
+                width: 250px;
+
+}
+
+form input[type="submit"]  {
+                padding: 10px;
+                height: 45px;
+                font-size: 25px;
+
+}
+
+.btn{
+
+        height: 48px;
+        background: #e8491d;
+        border: 0;
+        padding: 0 20px 0 20px;
+        color: #fff;
+        font-size: 20px;
+        cursor: pointer;
+}
+
+div.container div.box {
+
+        width: 30%;
+        float: left;
+        box-shadow: 2px 5px 10px #35424a;
+        margin: 10px auto 10px 20px;
+        padding: 20px;
+        box-sizing: border-box;
+        text-align: center;
+        
+}
+
+div.box p  {
+
+        text-align: left;
+}
+
+/* popular place */
+
+
+div.container div.place  {
+
+        width: 30%;
+        float: left;
+        box-shadow: 5px 5px 10px black;
+        padding: 20px;
+        box-sizing: border-box;
+        margin: 10px auto 10px 20px;
+        text-align: center;
+}
+
+div.place img  {
+
+        width: 100%;
+}
+
+/* main address section */
+
+section#main-address  {
+
+        background: black;
+        color: white;
+        border-bottom: 4px solid #ffc104;
+        border-top: 4px solid #ffc104;
+}
+section#main-address div.container div.foot{
+
+        width:calc(95%/3);
+        float: left;
+}
+
+div.foot input{
+
+        width: 100%;
+        padding:10px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        outline: none;
+}
+
+div.foot input[type="submit"]{
+
+        background: #35424a;
+        color:#fff;
+        font-size: 25px;
+        font-weight: bold;
+        border: none;
+        cursor: pointer; 
+         transition:all .8s ease-in-out;
+}
+div.foot input[type="submit"]:hover{
+
+        background: #ffc104;
+}
+footer{
+        background:#e8491d;
+        padding:20px;
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: bolder;
+        text-align: center;
+}
+
+/***** about css *****/
+article#main-content
+{
+        width: 60%;
+        float: left;
+}
+aside#sidebar
+{
+        width: 40%;
+        float: right;
+}
+
+.bg
+{
+        background-color: #141414;
+        color: #fff;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-top: 10px;
+}
+
+
+/******** service css ********/
+
+article#main-service
+{
+        width: 60%;
+        float: left;
+}
+
+aside#service-sidebar
+{
+        width: 35%;
+        float: right;
+        margin-top: 50px;
+}
+
+ul#services li
+{
+        list-style: none;
+        background: #e6e6e6;
+        padding: 20px;
+        box-sizing: border-box;
+        margin-top: 20px;
+        box-shadow: 2px 5px 2px #35424a;
+}
+
+aside#service-sidebar input, aside#service-sidebar textarea
+{
+        width: 90%;
+        padding: 8px;
+}
+
+/* media query */
+
+@media (max-width: 768px)
+{
+
+}

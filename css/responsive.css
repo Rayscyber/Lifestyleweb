@@ -1,0 +1,107 @@
+div#heading,nav#navbar,nav#navbar li 
+{
+    float: left;
+    text-align: center;
+    width: 100%;
+    padding: 0px;
+}
+
+div.container div.box {
+
+    width: 100%;
+    float: none;
+    box-shadow: 2px 5px 10px #35424a;
+    margin: 10px auto 10px 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+
+div.container div.place  {
+
+    width: 100%;
+    float: none;
+    box-shadow: 5px 5px 10px black;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 10px auto 10px 20px;
+    text-align: center;
+}
+
+section#main-address div.container div.foot:nth-child(1){
+
+    width: 50%;
+    float: left;
+}
+
+section#main-address div.container div.foot:nth-child(2){
+
+    width: 50%;
+    float: left;
+}
+
+section#main-address div.container div.foot:nth-child(3){
+
+    width: 100%;
+    float: left;
+}
+
+@media (max-width:500px)
+{
+    section#main-address div.container div.foot:nth-child(1){
+
+        width: 100%;
+        float: left;
+    }
+    
+    section#main-address div.container div.foot:nth-child(2){
+    
+        width: 100%;
+        float: left;
+    }
+    
+    section#main-address div.container div.foot:nth-child(3){
+    
+        width: 100%;
+        float: left;
+    }
+}
+
+article#main-content
+{
+        width: 100%;
+        float: none;
+}
+aside#sidebar
+{
+        width: 100%;
+        float: none;
+
+}
+
+/* servic css */
+
+article#main-service
+{
+        width: 100%;
+        float: none;
+}
+
+aside#service-sidebar
+{
+        width: 100%;
+        float: none;
+        margin-top: 20px;
+}
+
+ul#services li
+{
+        width: 100%;
+        list-style: none;
+        background: #e6e6e6;
+        padding: 20px;
+        box-sizing: border-box;
+        margin-top: 20px;
+        box-shadow: 2px 5px 2px #35424a;
+}
